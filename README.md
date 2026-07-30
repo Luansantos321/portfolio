@@ -124,8 +124,8 @@ https://github.com/Luansantos321
 
 LinkedIn
 
-(Adicione aqui o link do seu LinkedIn)
+www.linkedin.com/in/luan-santos-da-silva-1414ab369
 
 E-mail
 
-(Adicione aqui seu e-mail profissional)
+luansantosdasilva77@gmail.com
