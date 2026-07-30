@@ -1,0 +1,39 @@
+.contato{
+    padding:100px 0;
+}
+
+.contato-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.contato-card{
+    text-decoration:none;
+    color:#222;
+    background:#fff;
+    border-radius:15px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.contato-card:hover{
+    transform:translateY(-8px);
+}
+
+.contato-card svg{
+    font-size:2.5rem;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+.contato-card h3{
+    margin-bottom:10px;
+}
+
+.contato-card span{
+    color:#666;
+}

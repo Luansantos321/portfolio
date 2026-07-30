@@ -1,0 +1,24 @@
+import { ReactNode } from "react";
+import Navbar from "../components/Navbar/Navbar";
+
+interface MainLayoutProps {
+  children: ReactNode;
+}
+
+function MainLayout({ children }: MainLayoutProps) {
+  return (
+    <>
+      <Navbar />
+
+      <main
+        style={{
+          paddingTop: "90px",
+        }}
+      >
+        {children}
+      </main>
+    </>
+  );
+}
+
+export default MainLayout;

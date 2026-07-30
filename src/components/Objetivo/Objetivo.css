@@ -1,0 +1,29 @@
+.objetivo{
+    padding:100px 0;
+}
+
+.objetivo-card{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.objetivo-card p{
+    font-size:1.1rem;
+    line-height:1.9;
+    color:#555;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.4rem;
+    font-weight:700;
+    color:#1f2937;
+}
