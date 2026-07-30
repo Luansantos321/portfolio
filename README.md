@@ -1,32 +1,131 @@
-# React + TypeScript + Vite
+# Portfólio Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este repositório contém o meu portfólio profissional desenvolvido para apresentar meus projetos, tecnologias, trajetória e evolução como Desenvolvedor Full Stack.
 
-Currently, two official plugins are available:
+O objetivo deste projeto é centralizar meus principais trabalhos, permitindo que recrutadores e empresas conheçam minhas habilidades de forma prática.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O portfólio foi desenvolvido utilizando React, TypeScript e Vite, seguindo uma arquitetura baseada em componentes reutilizáveis e organização modular.
 
-## Expanding the Oxlint configuration
+A aplicação apresenta informações profissionais, projetos desenvolvidos, tecnologias utilizadas e formas de contato, além de uma página de detalhes para cada projeto.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Funcionalidades
+
+- Página inicial moderna
+- Seção "Sobre Mim"
+- Tecnologias utilizadas
+- Listagem de projetos
+- Página individual para cada projeto
+- Navegação utilizando React Router
+- Layout responsivo
+- Código organizado em componentes reutilizáveis
+
+---
+
+## Tecnologias
+
+- React
+- TypeScript
+- Vite
+- React Router DOM
+- Bootstrap
+- CSS3
+- Git
+- GitHub
+
+---
+
+## Estrutura do projeto
+
+```
+src/
+│
+├── assets/
+├── components/
+│   ├── Hero
+│   ├── Navbar
+│   ├── Tecnologias
+│   ├── Projects
+│   ├── Objetivo
+│   ├── Contact
+│   └── Footer
+│
+├── data/
+├── layouts/
+├── pages/
+├── types/
+└── App.tsx
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## Projetos apresentados
+
+- Loja Online
+- Sistema CEPASP
+- Sistema de Polos
+- Sistema Refeitório IF
+
+Cada projeto possui uma página exclusiva contendo:
+
+- descrição
+- tecnologias utilizadas
+- funcionalidades
+- objetivos
+- aprendizados
+- link para o GitHub
+
+---
+
+## Executando o projeto
+
+Clone o repositório
+
+```bash
+git clone https://github.com/Luansantos321/portfolio.git
+```
+
+Entre na pasta
+
+```bash
+cd portfolio
+```
+
+Instale as dependências
+
+```bash
+npm install
+```
+
+Execute
+
+```bash
+npm run dev
+```
+
+---
+
+## Objetivo
+
+Este projeto faz parte da minha evolução profissional como desenvolvedor e será continuamente atualizado com novos projetos, tecnologias e experiências.
+
+---
+
+## Contato
+
+GitHub
+
+https://github.com/Luansantos321
+
+LinkedIn
+
+www.linkedin.com/in/luan-santos-da-silva-1414ab369
+
+E-mail
+
+luansantosdasilva77@gmail.com
