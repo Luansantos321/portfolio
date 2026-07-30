@@ -1,4 +1,4 @@
-import sobreMim from "../data/sobreMim";
+import sobreMim from "../data/sobre";
 import "./SobreMim.css";
 
 function SobreMim() {
